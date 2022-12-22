@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.boss {
+    width: 100%;
+    margin: 100px 200px;
+  }
+  
+.main-box{
+    width: 1500px;
+    margin: 40px;
+}
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.heading-box{
+    margin-bottom: 41px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+    color: #000000;
+}
+.button-box1{
+    cursor: pointer;
+    padding: 15px 29px;
+    background-color: #384685;
+    border: 1px solid #384685;
+    border-radius: 5px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+.button-box{
+    cursor: pointer;
+    padding: 15px 40px;
+    background-color: transparent;
+    border: 1px solid #384685;
+    border-radius: 5px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #384685;
+}
+.button-box2{
+    cursor: pointer;
+    padding: 15px 28px;
+    background-color: transparent;
+    border: 1px solid #384685;
+    border-radius: 5px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #384685;
+}
+.container{
+    width: 100%;
+    margin: 40px;
+}
+.heading{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+    color: #1D1818;
+    margin-bottom: 41px;
+}
+.cards{
+    display: flex;
+    gap: 29px;
+}
+.card{
+    width: 340px;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+}
+.image{
+    width: 284px;
+    height: 252px;
+    background-image: url(./images/image\ 6.png);
+    background-size: cover;
+    position: relative;
+}
+.sale{
+    position: absolute;
+    top: -10px;
+    left: -5px;
+    background-color: red;
+    color: white;
+    padding: 5px 8px;
+    border: none;
+}
+.passage{
+    width: 200px;
+    height: 21px;
+    margin-bottom: 60px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+}
+.cost{
+    display: flex;
+}
+span{
+    margin-right: 12px;
+    margin-top: 15px;
+    margin-bottom: 26px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    text-decoration-line: line-through;
+    color: #BDBDBD;     
+}
+.p-text{
+    margin-top: 12px;
+    margin-bottom: 22px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 32px;
+    color: #000000;
+}
+.b-buy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.buy{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 32px;
+    padding: 14px 73px 17px;
+    background: transparent;
+    border: 1px solid #384685;
+    border-radius: 5px; 
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1D1818;
+    cursor: pointer;
+}
+.but1{
+    background: transparent;
+    position: absolute;
+    border: none;
+    left: 220px;
+    padding: 5px;
+}
+.but2{
+    background: transparent;
+    position: absolute;
+    border: none;
+    left: 200px;
+}
+.but3{
+    background: transparent;
+    position: absolute;
+    border: none;
+    right: 320px;
+    padding: 11px;
+}
+.but4{
+    background: transparent;
+    position: absolute;
+    border: none;
+    right: 300px;
+
+}
